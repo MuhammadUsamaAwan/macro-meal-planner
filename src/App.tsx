@@ -190,9 +190,9 @@ export default function App() {
     const multiplier = quantity / meal.baseUnit;
     return {
       kcal: Math.round(meal.kcal * multiplier),
-      protein: Math.round(meal.protein * multiplier * 100) / 100,
-      carbs: Math.round(meal.carbs * multiplier * 100) / 100,
-      fats: Math.round(meal.fats * multiplier * 100) / 100,
+      protein: Math.round(meal.protein * multiplier * 10) / 10,
+      carbs: Math.round(meal.carbs * multiplier * 10) / 10,
+      fats: Math.round(meal.fats * multiplier * 10) / 10,
     };
   };
 

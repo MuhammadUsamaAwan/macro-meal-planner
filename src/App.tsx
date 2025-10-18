@@ -96,6 +96,7 @@ export default function App() {
         setWeight(savedData.weight);
         setActivityLevel(savedData.activityLevel);
         setKcal(savedData.kcal);
+        setCalorieDeficit(savedData.calorieDeficit || 0);
         setMacros(savedData.macros);
       }
       if (savedData.meals) setMeals(savedData.meals);

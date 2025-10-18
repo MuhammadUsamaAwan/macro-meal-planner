@@ -485,7 +485,7 @@ export default function App() {
                           <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
                             <p className="text-gray-600 text-sm">Total Calories</p>
                             <p className="text-2xl font-bold text-blue-600">{totals.kcal}</p>
-                            {kcal && <p className="text-xs text-gray-500 mt-1">Target: {kcal}</p>}
+                            {kcal && <p className="text-xs text-gray-500 mt-1">Target: {kcal - calorieDeficit}</p>}
                           </div>
                           <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
                             <p className="text-gray-600 text-sm">Total Protein</p>
